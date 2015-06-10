@@ -5,10 +5,8 @@
 # the BSD 2-Clause license. Note that NO WARRANTY is provided.
 # See "LICENSE_BSD2.txt" for details.
 
-$(warning "SOURCE_DIR=$(SOURCE_DIR)")
 # Targets
 TARGETS := $(notdir $(SOURCE_DIR)).bin
-$(warning "TARGETS=$(TARGETS)")
 
 # Set custom entry point as we are a rootserver and will not be
 # started in a standard way
