@@ -141,7 +141,7 @@ init_timer_caps(env_t env)
 #include "test_mpscfifo.h"
 
 void *main_continued(void *arg UNUSED) {
-  printf("\nmain_continued:+\n")
+  printf("\nmain_continued:+\n");
 
   /* get the caps we need to send to tests to set up a timer */
   init_timer_caps(&env);
@@ -154,7 +154,7 @@ void *main_continued(void *arg UNUSED) {
   printMsg(&msg);
   testMpscFifo();
 
-  printf("main_continued:-\n\n")
+  printf("main_continued:-\n\n");
   return NULL;
 }
 
